@@ -1,0 +1,125 @@
+[
+  {
+    "model": "core.profile",
+    "pk": 1534,
+    "fields": {
+      "profile_type": "PERSON",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.priyomoneyuser",
+    "pk": 1,
+    "fields": {
+      "profile": 1534,
+      "first_name": "John",
+      "middle_name": "A.",
+      "last_name": "Doe",
+      "email_address": "john.doe@example.com",
+      "is_email_verified": true,
+      "date_of_birth": "1995-06-15",
+      "citizenship_status": "BANGLADESHI",
+      "one_auth_uuid": "11111111-2222-3333-4444-555555555555",
+      "profile_type": "PERSON",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "students.studentprimaryinfo",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "passport_number": "P1234567",
+      "passport_issue_place": "Dhaka",
+      "passport_issue_date": "2020-01-01",
+      "passport_expiry_date": "2030-01-01",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.usereducation",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "institution_name": "Massachusetts Institute of Technology",
+      "degree_title": "BSc",
+      "field_of_study": "Computer Science",
+      "start_date": "2015-09-01",
+      "end_date": "2019-05-31",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.userexperience",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "job_position": "Software Engineer",
+      "organization": "Google",
+      "location": "Mountain View",
+      "employment_type": "FULL_TIME",
+      "responsibilities": "Developed backend services using Python and Go.",
+      "start_date": "2019-07-01",
+      "end_date": "2022-08-31",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.userforeignuniversity",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "university_name": "Stanford University",
+      "student_id": "S123456",
+      "course_name": "MS in Computer Science",
+      "duration_of_course": "2 years",
+      "course_start_date": "2023-09-01",
+      "annual_exp_tuition_fee_in_cent": 5000000,
+      "annual_exp_other_fees_in_cent": 500000,
+      "advance_remittance_amount_in_cent": 2000000,
+      "deadline_date_of_advance_remittance": "2023-12-15",
+      "is_advance_remittance_amount_refundable": false,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.userfinancialinfo",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "foreign_currency_purchase_date": "2023-08-15",
+      "purchased_currency_amount_in_cent": 1500000,
+      "scholarship_title": "Graduate Fellowship",
+      "scholarship_amount_in_cent": 1000000,
+      "scholarship_period": "2023-2025",
+      "estimated_income_in_cent_from_part_time_per_month": 200000,
+      "remittance_by_other_channels": "Bank transfers from parents",
+      "willing_to_return_to_bd": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.userfinancerinfo",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "name": "Jane Doe",
+      "address": "123 Main Street, Dhaka, Bangladesh",
+      "profession": "Business Owner",
+      "nationality": "BANGLADESHI",
+      "mobile_number": "+8801712345678",
+      "relationship_with_student": "Mother",
+      "are_parents_alive": true,
+      "reason_parents_not_financing": "",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]
